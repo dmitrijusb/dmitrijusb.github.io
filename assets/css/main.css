@@ -1,0 +1,257 @@
+#menu {
+    position:fixed;
+    z-index:3;
+    width:130px;
+    padding:0;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+
+
+#menu li {
+    padding: 10px 20px;
+    width: 130px;
+    background: rgba(0, 0, 0, 0.5);/* Black background with opacity */
+    text-align: center;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+#menu img {
+    width: 130px;
+}
+
+#menu li a {
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+video {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.video-wrapper {
+    /* Telling our absolute positioned video to 
+    be relative to this element */
+    position: relative;
+  
+    width: 100%;
+    height: 100%;
+  
+    /* Will not allow the video to overflow the 
+    container */
+    overflow: hidden;
+  
+    /* Centering the container's content vertically 
+    and horizontally */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.galerija {}
+
+.galerija-picture {
+    background: url('../images/galerija.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.galerija-aprasymas {
+    background: #3A3845;
+}
+
+.galerija-aprasymas h1 {
+    text-align: center;
+    color: #826F66;
+    font-size: 50px;
+    margin-top: 10%;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.galerija-aprasymas p {
+    padding: 0 60px;
+    color: #F7CCAC;
+}
+
+.apie {}
+
+.container {
+    display: flex;
+}
+
+.flex-full {
+    flex: 1;
+    height: 100vh;
+}
+
+.apie-picture {
+    background: url('../images/apie.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.apie-aprasymas {
+    background: #C69B7B;
+}
+
+.apie-aprasymas h1 {
+    text-align: center;
+    color: #3A3845;
+    font-size: 50px;
+    margin-top: 10%;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.apie-aprasymas p {
+    padding: 0 60px;
+    color: #3A3845;
+}
+
+.kontaktai {}
+
+.kontaktai-picture {
+    background: url('../images/kontaktai.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.kontaktai-aprasymas {
+    background: #826F66;
+}
+
+.kontaktai-aprasymas h1 {
+    text-align: center;
+    color: #3A3845;
+    font-size: 50px;
+    margin-top: 10%;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.kontaktai-aprasymas h3 {
+
+    text-align: center;
+    color: #3A3845;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.kontaktai-aprasymas table {
+    text-align: center;
+    color: #3A3845;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.kontaktai-aprasymas p {
+    text-align: center;
+    padding: 0 40px;
+    color: #3A3845;
+}
+
+.susisiekime {
+    background: url('../images/susisiekime.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.susisiekime h1{
+    text-align: center;
+    color: #fffbff;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.susisiekime form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.susisiekime form input,
+.susisiekime form textarea {
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 0;
+    outline: none;
+}
+
+.susisiekime form button {
+    padding: 20px;
+    border-radius: 20px;
+    border: 0;
+    background: yellow;
+    font-size: 20px;
+}
+
+.Flexible-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+  }
+  .Flexible-container iframe,
+  .Flexible-container object,
+  .Flexible-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  #footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 3;
+    text-align:right;
+    right:20px
+}
+
+
+.nav li {
+    display:inline;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
