@@ -70,6 +70,7 @@ video {
 }
 
 .galerija-aprasymas {
+    text-align: center;
     background: #3A3845;
 }
 
@@ -90,6 +91,7 @@ video {
 
 .container {
     display: flex;
+    align-items: center;
 }
 
 .flex-full {
@@ -119,6 +121,18 @@ video {
     padding: 0 60px;
     color: #3A3845;
 }
+
+.apie-aprasymas img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.box{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;      
+}    
 
 .kontaktai {}
 
